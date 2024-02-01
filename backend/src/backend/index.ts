@@ -6,7 +6,7 @@ import { resolvers } from './schema';
 export const graphweaver = new Graphweaver({
   resolvers,
   fileAutoGenerationOptions: {
-    watchForFileChangesInPaths: ['../../frontend/src'],
+    watchForFileChangesInPaths: ['./src/../../frontend/src'],
   },
 });
 

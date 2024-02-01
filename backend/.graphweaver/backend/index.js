@@ -98,7 +98,7 @@ var resolvers = [PostResolver];
 var graphweaver = new import_graphweaver_server.default({
   resolvers,
   fileAutoGenerationOptions: {
-    watchForFileChangesInPaths: ["../../frontend/src"]
+    watchForFileChangesInPaths: ["./src/../../frontend/src"]
   }
 });
 var handler = graphweaver.handler();
